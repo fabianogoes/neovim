@@ -1,11 +1,6 @@
 # Neovim
 
-<aside>
-💡 https://github.com/fabianogoes/neovim
-
-</aside>
-
-## Instalação
+My neovim configurations on Ubuntu like
 
 ### Dependências de SO
 
@@ -51,9 +46,7 @@ Download
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k && echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 ```
 
-### Download
-
-‣
+### [Download](https://github.com/neovim/neovim/releases)
 
 ### Instalando por pacote `.deb`
 
@@ -75,7 +68,7 @@ touch ~/.config/nvim/keys/mappings.vim && \
 touch ~/.config/nvim/plug-config/telescope.vim
 ```
 
-- `~/.config/nvim/settings.vim`
+→ `~/.config/nvim/settings.vim`
     
     ```
     " set leader key
@@ -138,7 +131,7 @@ touch ~/.config/nvim/plug-config/telescope.vim
 
 [plugins.vim](Neovim%2070a57143355f4b24a491505bbcd27f11/plugins.vim)
 
-- → `~/.config/nvim/vim-plug/nvim/plugins.vim`
+→ `~/.config/nvim/vim-plug/nvim/plugins.vim`
     
     ```
     " auto-install vim-plug
@@ -178,11 +171,11 @@ touch ~/.config/nvim/plug-config/telescope.vim
     
     [plugins.vim](Neovim%2070a57143355f4b24a491505bbcd27f11/plugins%201.vim)
     
-- → `~/.config/nvim/autoload/plug.vim`
+→ `~/.config/nvim/autoload/plug.vim`
     
     [plug.vim](Neovim%2070a57143355f4b24a491505bbcd27f11/plug.vim)
     
-- → `~/.config/nvim/init.vim`
+→ `~/.config/nvim/init.vim`
     
     ```bash
     source ~/.config/nvim/settings.vim
@@ -193,7 +186,7 @@ touch ~/.config/nvim/plug-config/telescope.vim
     
     [init.vim](Neovim%2070a57143355f4b24a491505bbcd27f11/init.vim)
     
-- → `~/.config/nvim/keys/mappings.vim`
+→ `~/.config/nvim/keys/mappings.vim`
     
     ```bash
     " Better nav for omnicomplete
